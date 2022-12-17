@@ -1,7 +1,7 @@
+#define  _POSIX_C_SOURCE 200809L
+#include <stdio.h>
 #include "monty.h"
 #include <string.h>
-#include <stdio.h>
-#include <stdlib.h>
 
 void free_tokens(void);
 unsigned int token_arr_len(void);
